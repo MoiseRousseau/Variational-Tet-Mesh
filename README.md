@@ -3,9 +3,11 @@
 A simple variational tetrahedral mesher based on [Geogram library](https://github.com/alicevision/geogram). 
 Compute the inner tetrahedral mesh based of the given 2D closed mesh.
 
+
 ## Getting started
 
 Installation is done in 2 steps: installation of the Geogram library and compilation of the variational mesher.
+
 
 ### Geogram library installation
 
@@ -37,6 +39,7 @@ g++ var-tet-mesher.cpp -o Var-Tet-Mesher -I/usr/local/include/geogram1/ -lgeogra
 3. The mesher is ready
 
 
+
 ## Use
 
 The variational mesher is called by specifying first the input surface mesh, the output file and the number of points desired through `nb_pts=X` with `X` the number of points.
@@ -46,3 +49,11 @@ For example:
 ```
 to mesh the inner volume of the closed surface in `cylinder.mesh` with 500 points.
 Maximum number of threads (for parallel meshing) could be specified using the argument `max_threads=X` (default all the thread available).
+
+
+
+## Salome CAD software plugins
+
+A Python plugin was created to allow using the variational tetrahedral mesher directly from the GUI of the [Salome](https://salome-platform.org/) SMESH module.
+See `README.md` file in the `salome_var_tet_mesher` directory for more information.
+
