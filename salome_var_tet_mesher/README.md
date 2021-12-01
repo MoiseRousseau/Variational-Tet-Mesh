@@ -34,4 +34,4 @@ NETGEN 3D algorithm generated 407000 nodes and 3.15 million tetrahedra in approx
 Multithreaded variational meshing (same number of nodes) using 12 threads tooks approximately 4 minutes and generated approximately 2.2 million tetrahedra.
 Calculation were done on a consummer laptop with a [Ryzen 5500U](https://www.amd.com/en/products/apu/amd-ryzen-5-5500u) processor with 24Go of RAM.
 
-![Performance comparison](https://github.com/MoiseRousseau/Variational-Tet-Mesh/salome_var_tet_mesher/performance_comp.png)
+![Performance comparison](https://github.com/MoiseRousseau/Variational-Tet-Mesh/blob/main/salome_var_tet_mesher/performance_comp.png)
